@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Ei buruz</string>
+    <string name="affirm">Bai</string>
+    <string name="cancel">Ez</string>
+    <string name="dialog_download">Berreskuratu gainerako miniaturak?</string>
+    <string name="dialog_wallpaper">Ezarri irudia horma-paper gisa?</string>
+    <string name="title_notification">Jakinarazpen</string>
+    <string name="text_notification">Irudi berriak argitaratua.</string>
+    <string name="action_share">Elkarbanatzeko</string>
+    <string name="title_question">Galdera</string>
+    <string name="network_reminder">Mesedez gaitu sareko sarbidea jarraitzeko.</string>
+</resources>
+

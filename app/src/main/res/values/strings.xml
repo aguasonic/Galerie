@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">AGUASONIC® Galerie</string>
+    <string name="google_app_id" translatable="false">1:583642795017:android:2895d327493c1743</string>
+    <string name="action_about">About</string>
+    <string name="action_share">Share</string>
+    <string name="affirm">Yes</string>
+    <string name="cancel">No</string>
+    <string name="dialog_wallpaper">Set This Image As Wallpaper?</string>
+    <string name="dialog_download">Retrieve the remaining thumbnails?</string>
+    <string name="desc_fullsize" translatable="false">The Fullsize Image</string>
+    <string name="desc_FMI" translatable="false">For More Information</string>
+    <string name="desc_POS" translatable="false">Point Of Sale</string>
+    <string name="desc_TSO" translatable="false">The Sound Of</string>
+    <string name="title_activity_dialog" translatable="false">Galerie</string>
+    <string name="title_activity_fullsize" translatable="false">Galerie</string>
+    <string name="title_activity_main" translatable="false">Galerie</string>
+    <string name="title_notification">Notification</string>
+    <string name="network_reminder">Please enable network access to proceed.</string>
+    <string name="text_notification">New images have been posted.</string>
+    <string name="title_question">Question</string>
+</resources>

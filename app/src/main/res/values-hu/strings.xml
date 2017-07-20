@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Körülbelül</string>
+    <string name="affirm">Igen</string>
+    <string name="cancel">Nem</string>
+    <string name="dialog_download">Nyerje meg a maradék kis képekre?</string>
+    <string name="dialog_wallpaper">Set kép háttérképként?</string>
+    <string name="title_notification">Bejelentés</string>
+    <string name="text_notification">Új képek kerültek fel.</string>
+    <string name="action_share">Részvény</string>
+    <string name="title_question">Kérdés</string>
+    <string name="network_reminder">Kérjük, engedélyezze a hálózati hozzáférést a folytatáshoz.</string>
+</resources>

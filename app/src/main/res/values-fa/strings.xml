@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">در حدود</string>
+    <string name="affirm">بله</string>
+    <string name="cancel">هیچ</string>
+    <string name="dialog_download">بازیابی ریز عکسها به باقی مانده؟</string>
+    <string name="dialog_wallpaper">تنظیم تصویر به عنوان تصویر زمینه؟</string>
+    <string name="title_notification">اخطار</string>
+    <string name="text_notification">.تصاویر ارسال شده در</string>
+    <string name="action_share">سهم</string>
+    <string name="title_question">سوال</string>
+    <string name="network_reminder">لطفا دسترسی به شبکه را قادر به ادامه.</string>
+</resources>

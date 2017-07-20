@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Về</string>
+    <string name="affirm">Vâng</string>
+    <string name="cancel">Không</string>
+    <string name="dialog_download">Lấy các hình thu nhỏ còn lại?</string>
+    <string name="dialog_wallpaper">Đặt Image As Wallpaper?</string>
+    <string name="title_notification">Thông báo</string>
+    <string name="text_notification">Hình ảnh mới gửi.</string>
+    <string name="action_share">phần</string>
+    <string name="title_question">câu hỏi</string>
+    <string name="network_reminder">Vui lòng kích hoạt truy cập mạng để tiến hành.</string>
+</resources>
+

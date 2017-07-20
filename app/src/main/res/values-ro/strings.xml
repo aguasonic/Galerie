@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Despre</string>
+    <string name="affirm">Da</string>
+    <string name="cancel">Nu</string>
+    <string name="dialog_download">Preluare miniaturile rămase?</string>
+    <string name="dialog_wallpaper">Setați această imaginea ca fundal?</string>
+    <string name="title_notification">Aviz</string>
+    <string name="text_notification">Imagini noi au fost postate.</string>
+    <string name="action_share">Pentru Distribuie</string>
+    <string name="title_question">întrebare</string>
+    <string name="network_reminder">Vă rugăm să activați accesul la rețea pentru a continua.</string>
+</resources>
+

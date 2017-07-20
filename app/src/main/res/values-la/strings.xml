@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Circiter</string>
+    <string name="affirm">Ita</string>
+    <string name="cancel">No</string>
+    <string name="dialog_download">Cras reliquas imagines?</string>
+    <string name="dialog_wallpaper">Set Image Ut Wallpaper?</string>
+    <string name="title_notification">Operam</string>
+    <string name="text_notification">Posted Images New fuisti.</string>
+    <string name="action_share">Communico</string>
+    <string name="title_question">Quaeritur</string>
+    <string name="network_reminder">Placet retis accessum possit procedere.</string>
+</resources>
+

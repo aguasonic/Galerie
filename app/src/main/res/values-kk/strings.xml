@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="action_about">туралы</string>
+  <string name="action_share">үлес</string>
+  <string name="affirm">иә</string>
+  <string name="cancel">жоқ</string>
+  <string name="dialog_download">Қалған пиктограммаларды шығарып?</string>
+  <string name="dialog_wallpaper">Фон ретінде осы суретті орнатыңыз?</string>
+  <string name="network_reminder">Жалғастыру үшін желілік қолжетімділікті қамтамасыз сұраймыз.</string>
+  <string name="text_notification">Жаңа суреттер ілінген болатын.</string>
+  <string name="title_question">сұрақ</string>
+  <string name="title_notification">хабарландыру</string>
+</resources>

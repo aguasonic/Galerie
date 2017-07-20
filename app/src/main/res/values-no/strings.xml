@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Omkring</string>
+    <string name="affirm">Ja</string>
+    <string name="cancel">Nei</string>
+    <string name="dialog_download">Hente de resterminiatyrbilder?</string>
+    <string name="dialog_wallpaper">Sett dette bildet som bakgrunnsbilde?</string>
+    <string name="title_notification">Varsling</string>
+    <string name="text_notification">Nye bilder lagt ut.</string>
+    <string name="action_share">å dele</string>
+    <string name="title_question">Spørsmålet</string>
+    <string name="network_reminder">Vennligst aktiver nettverkstilgang for å fortsette.</string>
+</resources>
+

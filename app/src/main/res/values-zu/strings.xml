@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Maqondana</string>
+    <string name="affirm">Yebo</string>
+    <string name="cancel">No</string>
+    <string name="dialog_download">Ukubuyisa izithonjana asele?</string>
+    <string name="dialog_wallpaper">Setha Image As Wallpaper?</string>
+    <string name="title_notification">Isaziso</string>
+    <string name="text_notification">Izithombe New Abaye Posted.</string>
+    <string name="action_share">Ungahlukıselana</string>
+    <string name="title_question">Umbuzo</string>
+    <string name="network_reminder">Sicela unike amandla ukufinyelela kwenethiwekhi ukuze uqhubeke.</string>
+</resources>
+

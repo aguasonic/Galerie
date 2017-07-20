@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Sobre</string>
+    <string name="affirm">Sim</string>
+    <string name="cancel">Não</string>
+    <string name="dialog_download">Recuperar as miniaturas restantes?</string>
+    <string name="dialog_wallpaper">Definir imagem como papel de parede?</string>
+    <string name="title_notification">Notificação</string>
+    <string name="text_notification">Novas imagens postadas.</string>
+    <string name="action_share">para Compartilhar</string>
+    <string name="title_question">Pergunta</string>
+    <string name="network_reminder">Ative o acesso à rede para prosseguir.</string>
+</resources>
+

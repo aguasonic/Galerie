@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">каля</string>
+    <string name="action_share">падзяліцца</string>
+    <string name="affirm">ды</string>
+    <string name="cancel">няма</string>
+    <string name="dialog_download">Атрымаць пакінутыя эскізы?</string>
+    <string name="dialog_wallpaper">Ўсталяваць дадзеную карцінку ў якасці шпалер?</string>
+    <string name="network_reminder">Калі ласка, уключыце доступ да сеткі, каб працягнуць.</string>
+    <string name="text_notification">Новыя малюнкі былі размешчаны.</string>
+    <string name="title_notification">апавяшчэнне</string>
+    <string name="title_question">пытанне</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Jo</string>
+    <string name="action_about">Për</string>
+    <string name="action_share">Pjesë</string>
+    <string name="affirm">Po</string>
+    <string name="dialog_download">Rifitoj imazhet e mbetura të vogla?</string>
+    <string name="dialog_wallpaper">Bëni këtë foto si sfond?</string>
+    <string name="network_reminder">Ju lutem aktivizoni qasje të rrjetit për të vazhduar.</string>
+    <string name="text_notification">Imazhe të reja janë postuar.</string>
+    <string name="title_notification">Njoftim</string>
+    <string name="title_question">Pyetje</string>
+</resources>

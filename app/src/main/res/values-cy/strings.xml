@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Ynghylch</string>
+    <string name="affirm">Ydy</string>
+    <string name="cancel">Na</string>
+    <string name="dialog_download">Adfer y rhagolygon cryno sydd ar ôl?</string>
+    <string name="dialog_wallpaper">Gosodwch Image Fel Wallpaper?</string>
+    <string name="title_notification">Hysbysu</string>
+    <string name="text_notification">Delweddau newydd postio.</string>
+    <string name="action_share">Rhannu</string>
+    <string name="title_question">Cwestiwn</string>
+    <string name="network_reminder">Os gwelwch yn dda alluogi mynediad i\'r rhwydwaith i symud ymlaen.</string>
+</resources>

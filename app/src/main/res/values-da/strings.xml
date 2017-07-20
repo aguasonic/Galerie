@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Om</string>
+    <string name="affirm">Ja</string>
+    <string name="cancel">Nej</string>
+    <string name="dialog_download">Hent de resterende miniaturer?</string>
+    <string name="dialog_wallpaper">Indstil billede som baggrund?</string>
+    <string name="title_notification">Anmeldelse</string>
+    <string name="text_notification">Nye billeder indsendt.</string>
+    <string name="action_share">Andel</string>
+    <string name="title_question">Spørgsmål</string>
+    <string name="network_reminder">Slå netværksadgang at fortsætte.</string>
+</resources>
+

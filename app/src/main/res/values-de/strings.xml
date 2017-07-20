@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Über</string>
+    <string name="affirm">Ja</string>
+    <string name="cancel">Nein</string>
+    <string name="dialog_download">Rufen Sie die übrigen Miniaturen?</string>
+    <string name="dialog_wallpaper">Set Bild als Tapete?</string>
+    <string name="title_notification">Benachrichtigung</string>
+    <string name="text_notification">Neue Bilder veröffentlicht.</string>
+    <string name="action_share">Aktie</string>
+    <string name="title_question">Frage</string>
+    <string name="network_reminder">Bitte aktivieren Sie den Netzwerkzugriff, um fortzufahren.</string>
+</resources>

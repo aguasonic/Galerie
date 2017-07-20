@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">حول</string>
+    <string name="affirm">نعم</string>
+    <string name="cancel">لا</string>
+    <string name="dialog_download">استرداد الصور المصغرة المتبقية؟</string>
+    <string name="dialog_wallpaper">تعيين هذه الصورة كخلفية؟</string>
+    <string name="title_notification">إشعار</string>
+    <string name="text_notification">.الصور الجديدة التي تم ادخالها</string>
+    <string name="action_share">حصة</string>
+    <string name="title_question">مسألة</string>
+    <string name="network_reminder">يرجى تمكين وصول الشبكة إلى المضي قدما.</string>
+</resources>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="action_about">बारे</string>
+  <string name="action_share">साझेदारी गर्न</string>
+  <string name="affirm">हो</string>
+  <string name="cancel">कुनै</string>
+  <string name="dialog_download">शेष थम्बनेल प्राप्त गर्नुहोस्?</string>
+  <string name="dialog_wallpaper">वालपेपरको यो छवि सेट?</string>
+  <string name="network_reminder">अगाडि बढ्नको लागि नेटवर्क पहुँच सक्षम गर्नुहोस्।</string>
+  <string name="text_notification">नयाँ तस्बिरहरू पोस्ट गरिएको छ।</string>
+  <string name="title_notification">सूचना</string>
+  <string name="title_question">प्रश्न</string>
+</resources>

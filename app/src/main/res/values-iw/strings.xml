@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">אודות</string>
+    <string name="affirm">כן</string>
+    <string name="cancel">לא</string>
+    <string name="dialog_download">אחזר את התמונות הממוזערות שנותרו?</string>
+    <string name="dialog_wallpaper">להגדיר את התמונה כטפט</string>
+    <string name="title_notification">הודעה</string>
+    <string name="text_notification">תמונות חדשות כבר פורסמו.</string>
+    <string name="action_share">לשתף</string>
+    <string name="title_question">שאלה</string>
+    <string name="network_reminder">אנא אפשר גישה לרשת כדי להמשיך.</string>
+</resources>
+

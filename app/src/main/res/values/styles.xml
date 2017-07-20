@@ -1,0 +1,20 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Themes for Galerie. -->
+    <!-- ||||||||||||||||||| -->
+    <style name="App_Theme" parent="@style/Theme.AppCompat">
+        <item name="actionBarStyle">@style/TheActionBar</item>
+        <item name="android:windowContentOverlay">@color/sunshine_blue</item>
+    </style>
+
+    <style name="TheActionBar" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="displayOptions">useLogo|showHome|showTitle</item>
+        <item name="logo">@drawable/icon_logo</item>
+        <item name="title">@string/title_activity_fullsize</item>
+        <item name="background">@color/black_overlay</item>
+    </style>
+
+    <!-- The 'Dialog' activity has no menu. -->
+    <style name="Dialog_Theme" parent="android:Theme.Holo.NoActionBar"/>
+
+</resources>
+

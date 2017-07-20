@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Mō</string>
+    <string name="affirm">Ae</string>
+    <string name="cancel">No</string>
+    <string name="dialog_download">Tīkina te toe karakōnui?</string>
+    <string name="dialog_wallpaper">Whakaturia Image I Wallpaper?</string>
+    <string name="title_notification">Whakamōhiotanga</string>
+    <string name="text_notification">Images New Kuo Posted.</string>
+    <string name="action_share">Ki te faaite i</string>
+    <string name="title_question">A pātai</string>
+    <string name="network_reminder">Tēnā taea uru whatunga ki te haere tonu.</string>
+</resources>
+

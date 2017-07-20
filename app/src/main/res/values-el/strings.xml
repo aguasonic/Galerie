@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Σχετικά με</string>
+    <string name="affirm">Ναι</string>
+    <string name="cancel">Όχι</string>
+    <string name="dialog_download">Ανάκτηση τα υπόλοιπα εικονίδια?</string>
+    <string name="dialog_wallpaper">Ορισμός εικόνα ως ταπετσαρία;</string>
+    <string name="title_notification">κοινοποίηση</string>
+    <string name="text_notification">Νέες εικόνες δημοσιεύτηκε.</string>
+    <string name="action_share">μετοχή</string>
+    <string name="title_question">ερώτηση</string>
+    <string name="network_reminder">Παρακαλούμε ενεργοποιήστε την πρόσβαση στο δίκτυο για να προχωρήσετε.</string>
+</resources>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">около</string>
+    <string name="affirm">да</string>
+    <string name="cancel">не</string>
+    <string name="dialog_download">Възстановете останалите миниатюрите?</string>
+    <string name="dialog_wallpaper">Задаване на изображението като тапет?</string>
+    <string name="title_notification">нотификация</string>
+    <string name="text_notification">Нови снимки са били публикувани.</string>
+    <string name="action_share">дял</string>
+    <string name="title_question">въпрос</string>
+    <string name="network_reminder">Моля, разрешете достъп до мрежата, за да продължите.</string>
+</resources>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Omtrent</string>
+    <string name="affirm">Ja</string>
+    <string name="cancel">Nee</string>
+    <string name="dialog_download">Haal de resterende miniaturen?</string>
+    <string name="dialog_wallpaper">Stel afbeelding als achtergrond?</string>
+    <string name="title_notification">Kennisgeving</string>
+    <string name="text_notification">Nieuwe beelden geplaatst.</string>
+    <string name="action_share">Delen</string>
+    <string name="title_question">Een Vraag</string>
+    <string name="network_reminder">Schakel toegang tot het netwerk te gaan.</string>
+</resources>

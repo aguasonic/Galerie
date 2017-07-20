@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aguasonic.android.galerie">
+
+    <!-- This permission is necessary in order to perform network access. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- This permission is necessary in order to set the wallpaper. -->
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
+    <!-- For GCM receiver. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- This permission is necessary learn whether -->
+    <!-- our network connection is WIFI or Mobile -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Warns about storing the GCM client id, /even when false/. Ignore it.    -->
+    <!-- See https://developer.android.com/preview/backup/ for more information. -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/App_Theme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:launchMode="singleTop"
+            android:logo="@drawable/icon_logo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".FullsizeActivity"
+            android:label="@string/title_activity_fullsize"
+            android:launchMode="singleTop"
+            android:logo="@drawable/icon_logo">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aguasonic.android.galerie.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".DialogActivity"
+            android:theme="@style/Dialog_Theme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aguasonic.android.galerie.MainActivity" />
+        </activity>
+
+        <!-- After the colon { : } _MUST_ be lower-case for 'local remote', -->
+        <service
+            android:name=".ThumbnailService"
+            android:process=":service.thumbnails"
+            android:exported="false">
+        </service>
+
+        <provider
+            android:name=".data.GD_Provider"
+            android:authorities="com.aguasonic.android.galerie.provider"
+            android:enabled="true"
+            android:exported="false">
+        </provider>
+
+    </application>
+
+</manifest>

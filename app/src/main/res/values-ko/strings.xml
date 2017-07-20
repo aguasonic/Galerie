@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">약</string>
+    <string name="affirm">예</string>
+    <string name="cancel">아니</string>
+    <string name="dialog_download">나머지 축소판을 검색?</string>
+    <string name="dialog_wallpaper">배경 화면이 이미지를 설정?</string>
+    <string name="title_notification">공고</string>
+    <string name="text_notification">새 이미지를 게시.</string>
+    <string name="action_share">공유하기</string>
+    <string name="title_question">문제</string>
+    <string name="network_reminder">계속 네트워크 액세스가 가능해야합니다.</string>
+</resources>
+

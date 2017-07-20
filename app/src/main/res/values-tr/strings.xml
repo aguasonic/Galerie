@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Hakkında</string>
+    <string name="affirm">Evet</string>
+    <string name="cancel">Hayır</string>
+    <string name="dialog_download">Kalan minik Al?</string>
+    <string name="dialog_wallpaper">Duvar Kağıdı Resmi Set?</string>
+    <string name="title_notification">Tebliğ</string>
+    <string name="text_notification">Yeni görüntüler yayınlanmıştır.</string>
+    <string name="action_share">Paylaş</string>
+    <string name="title_question">Soru</string>
+    <string name="network_reminder">Devam etmek için ağ erişimi etkinleştirin.</string>
+</resources>

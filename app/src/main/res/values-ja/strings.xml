@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">およそ</string>
+    <string name="affirm">はい</string>
+    <string name="cancel">いいえ</string>
+    <string name="dialog_download">残りのサムネイルを取得する？</string>
+    <string name="dialog_wallpaper">壁紙として画像を設定します？</string>
+    <string name="title_notification">通知</string>
+    <string name="text_notification">新しい画像が投稿されて.</string>
+    <string name="action_share">共有するには</string>
+    <string name="title_question">質問</string><string name="network_reminder">続行するには、ネットワークアクセスを有効にしてください。
+</string>
+</resources>

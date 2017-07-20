@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Около</string>
+    <string name="affirm">Да</string>
+    <string name="cancel">Нет</string>
+    <string name="dialog_download">Получить оставшиеся эскизы?</string>
+    <string name="dialog_wallpaper">Установка изображения в качестве обоев?</string>
+    <string name="title_notification">уведомление</string>
+    <string name="text_notification">Новые отвечал.</string>
+    <string name="action_share">Для Поделиться</string>
+    <string name="title_question">вопрос</string>
+    <string name="network_reminder">Активизируйте сетевой доступ для перехода.</string>
+</resources>

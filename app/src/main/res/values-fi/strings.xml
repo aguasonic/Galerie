@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Tietoja</string>
+    <string name="affirm">Kyllä</string>
+    <string name="cancel">Ei</string>
+    <string name="dialog_download">Nouda jäljellä pikkukuvat?</string>
+    <string name="dialog_wallpaper">Asettaa kuvan taustakuvaksi?</string>
+    <string name="title_notification">Ilmoitus</string>
+    <string name="text_notification">Uusia kuvia lähetetty.</string>
+    <string name="action_share">Osuus</string>
+    <string name="title_question">Kysymys</string>
+    <string name="network_reminder">Salli verkkoyhteys edetä.</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Około</string>
+    <string name="dialog_wallpaper">Ustawić obraz jako tapetę?</string>
+    <string name="affirm">Tak</string>
+    <string name="cancel">Nie</string>
+    <string name="dialog_download">Odzyskaj pozostałe miniatury?</string>
+    <string name="title_notification">Zgłoszenie</string>
+    <string name="text_notification">Nowe zdjęcia pisał.</string>
+    <string name="action_share">aby Udostępnij</string>
+    <string name="title_question">Pytanie</string>
+    <string name="network_reminder">Proszę umożliwić dostęp do sieci, aby kontynuować.</string>
+</resources>

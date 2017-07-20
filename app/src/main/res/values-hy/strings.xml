@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">մոտ</string>
+    <string name="text_notification">Նոր նկարներ են տեղադրված:</string>
+    <string name="cancel">ոչ</string>
+    <string name="action_share">Որպեսզի կիսվել</string>
+    <string name="affirm">այո</string>
+    <string name="dialog_download">Առբերման մնացած մատնապատկերներից.</string>
+    <string name="dialog_wallpaper">Սահմանել Այս պատկերը որպես պաստառ.</string>
+    <string name="network_reminder">Խնդրում ենք ակտիվացնել ցանցային մուտք շարունակել.</string>
+    <string name="title_notification">ծանուցում</string>
+    <string name="title_question">հարց</string>
+</resources>

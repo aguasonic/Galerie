@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Maidir</string>
+    <string name="affirm">Tá</string>
+    <string name="cancel">No</string>
+    <string name="dialog_download">Aisghabh na mionsamhlacha atá fágtha?</string>
+    <string name="dialog_wallpaper">Socraigh Image Mar Cúlbhrat?</string>
+    <string name="title_notification">Fógra</string>
+    <string name="text_notification">Íomhánna nua sa phost.</string>
+    <string name="action_share">Comhroinn</string>
+    <string name="title_question">Ceist</string>
+    <string name="network_reminder">Le do thoil ar chumas rochtain ar an líonra chun dul ar aghaidh.</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="action_about">เกี่ยวกับ</string>
+  <string name="affirm">ใช่</string>
+  <string name="action_share">แบ่ง</string>
+  <string name="cancel">ไม่</string>
+  <string name="dialog_download">ดึงภาพขนาดเล็กที่เหลืออยู่?</string>
+  <string name="dialog_wallpaper">ตั้งเป็นวอลล์เปเปอร์ภาพนี้?</string>
+  <string name="network_reminder">โปรดเปิดใช้งานการเข้าถึงเครือข่ายเพื่อดำเนินการต่อ</string>
+  <string name="text_notification">ภาพใหม่ได้รับการโพสต์</string>
+  <string name="title_notification">การประกาศ</string>
+  <string name="title_question">คำถาม</string>
+</resources>

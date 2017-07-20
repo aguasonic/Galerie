@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_notification">Notifikasi</string>
+    <string name="action_about">Informasi</string>
+    <string name="action_share">Nuduhake</string>
+    <string name="affirm">Ya</string>
+    <string name="cancel">Ora</string>
+    <string name="dialog_download">Nompo cilik isih?</string>
+    <string name="dialog_wallpaper">Setel Gambar Minangka Sokongan?</string>
+    <string name="network_reminder">Mangga mbisakake akses jaringan kanggo nerusake.</string>
+    <string name="text_notification">Gambar anyar wis dikirim.</string>
+    <string name="title_question">Pitakonan</string>
+</resources>

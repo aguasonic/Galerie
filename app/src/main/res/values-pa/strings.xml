@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="action_about">ਬਾਰੇ</string>
+  <string name="action_share">ਸ਼ੇਅਰ ਕਰਨਾ</string>
+  <string name="affirm">ਜੀ</string>
+  <string name="cancel">ਕੋਈ</string>
+  <string name="dialog_download">ਬਾਕੀ ਥੰਮਨੇਲ ਪ੍ਰਾਪਤ?</string>
+  <string name="dialog_wallpaper">ਵਾਲਪੇਪਰ ਤੇ ਤੌਰ ਤੇ ਇਸ ਚਿੱਤਰ ਨੂੰ ਦਿਓ?</string>
+  <string name="network_reminder">ਜਾਰੀ ਕਰਨ ਲਈ ਨੈੱਟਵਰਕ ਪਹੁੰਚ ਯੋਗ ਕਰੋ ਜੀ.</string>
+  <string name="text_notification">ਨਿਊ ਚਿੱਤਰ, ਤਾਇਨਾਤ ਕੀਤਾ ਗਿਆ ਹੈ.</string>
+  <string name="title_notification">ਸੂਚਨਾ</string>
+  <string name="title_question">ਪ੍ਰਸ਼ਨ</string>
+</resources>

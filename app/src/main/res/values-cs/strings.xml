@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">O</string>
+    <string name="affirm">Ano</string>
+    <string name="cancel">Ne</string>
+    <string name="dialog_download">Načíst zbývající miniatury?</string>
+    <string name="dialog_wallpaper">Nastavit obrázek jako tapetu?</string>
+    <string name="title_notification">Oznámení</string>
+    <string name="text_notification">Nové obrázky posta.</string>
+    <string name="action_share">Podíl</string>
+    <string name="title_question">Otázka</string>
+    <string name="network_reminder">Prosím, umožnit přístup k síti pokračovat.</string>
+</resources>
+

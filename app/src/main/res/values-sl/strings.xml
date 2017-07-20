@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">O</string>
+    <string name="affirm">Da</string>
+    <string name="cancel">Ne</string>
+    <string name="dialog_download">Priklicati preostale sličice?</string>
+    <string name="dialog_wallpaper">Nastavite to sliko za ozadje?</string>
+    <string name="title_notification">Obvestilo</string>
+    <string name="text_notification">Nove slike so bile objavljene.</string>
+    <string name="action_share">Za delnico</string>
+    <string name="title_question">Vprašanje</string>
+    <string name="network_reminder">Prosimo, omogočite dostop do omrežja za nadaljevanje.</string>
+</resources>
+

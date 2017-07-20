@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Pri</string>
+    <string name="affirm">Jes</string>
+    <string name="cancel">Ne</string>
+    <string name="dialog_download">Elsxuti la ceteraj bildetojn?</string>
+    <string name="dialog_wallpaper">Fiksita Bildo Kiel Wallpaper?</string>
+    <string name="title_notification">Sciigo</string>
+    <string name="text_notification">Novaj bildoj poŝtita.</string>
+    <string name="action_share">Konigi</string>
+    <string name="title_question">Demando</string>
+    <string name="network_reminder">Bonvolu aktivigi reto aliro al procedi.</string>
+</resources>
+

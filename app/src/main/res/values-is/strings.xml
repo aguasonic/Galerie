@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Um</string>
+    <string name="affirm">Já</string>
+    <string name="cancel">Nei</string>
+    <string name="dialog_download">Sækja eftirstandandi smámyndir?</string>
+    <string name="dialog_wallpaper">Setja mynd sem veggfóður?</string>
+    <string name="title_notification">Tilkynning</string>
+    <string name="text_notification">Nýjar myndir settar.</string>
+    <string name="action_share">Deila</string>
+    <string name="title_question">Spurning</string>
+    <string name="network_reminder">Vinsamlega virkjaðu aðgang til að halda áfram.</string>
+</resources>
+

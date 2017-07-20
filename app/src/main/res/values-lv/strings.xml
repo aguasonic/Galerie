@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Par</string>
+    <string name="affirm">Jā</string>
+    <string name="cancel">Nē</string>
+    <string name="dialog_download">Paņemt atlikušos sīktēlus?</string>
+    <string name="dialog_wallpaper">Set attēlu kā fonu?</string>
+    <string name="title_notification">Paziņojums</string>
+    <string name="text_notification">Jaunie attēli ievietojis.</string>
+    <string name="action_share">Akcija</string>
+    <string name="title_question">Jautājums</string>
+    <string name="network_reminder">Lūdzu aktivizējiet piekļuvi tīklam, lai turpinātu.</string>
+</resources>
+

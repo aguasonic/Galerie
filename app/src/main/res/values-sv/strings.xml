@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Cirka</string>
+    <string name="dialog_wallpaper">Ställ bild som bakgrundsbild?</string>
+    <string name="affirm">Ja</string>
+    <string name="cancel">Nej</string>
+    <string name="dialog_download">Hämta de återstående miniatyrer?</string>
+    <string name="title_notification">Anmälan</string>
+    <string name="text_notification">Nya bilder har postat.</string>
+    <string name="action_share">Att dela</string>
+    <string name="title_question">Fråga</string>
+    <string name="network_reminder">Aktivera nätverksåtkomst för att fortsätta.</string>
+</resources>

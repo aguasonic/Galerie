@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Про</string>
+    <string name="affirm">Так</string>
+    <string name="cancel">немає</string>
+    <string name="dialog_download">Отримати решту ескізи?</string>
+    <string name="dialog_wallpaper">Встановити дану картинку в якості шпалер?</string>
+    <string name="title_notification">повідомлення</string>
+    <string name="text_notification">Нові зображення були розміщені.</string>
+    <string name="action_share">для Поділитися</string>
+    <string name="title_question">питання</string>
+    <string name="network_reminder">Будь ласка, включіть доступ до мережі, щоб продовжити.</string>
+</resources>
+

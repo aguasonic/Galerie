@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Au sujet de</string>
+    <string name="dialog_wallpaper">Réglez image comme papier peint?</string>
+    <string name="affirm">Oui</string>
+    <string name="cancel">Non</string>
+    <string name="dialog_download">Récupérer les vignettes restantes?</string>
+    <string name="title_notification">Notification</string>
+    <string name="text_notification">Nouvelles images disponibles.</string>
+    <string name="action_share">Pour partager</string>
+    <string name="title_question">Question</string>
+    <string name="network_reminder">S\'il vous plaît permettre l\'accès au réseau pour continuer.</string>
+</resources>

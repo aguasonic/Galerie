@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+def static computeVersionName(final int the_version) {
+    return (String.format("%3.2f", (the_version / 100)));
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "26.0.0"
+
+    defaultConfig {
+        applicationId "com.aguasonic.android.galerie"
+        minSdkVersion 14
+        targetSdkVersion 25
+        //- Application version.
+        versionCode 330
+        versionName computeVersionName(versionCode)
+    }
+
+    //- There are resources used by the AlertDialog { background drawables
+    //- for buttons } that get removed if shrinkResources is 'true'!
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources false
+            proguardFiles 'proguard-rules.pro'
+        }
+    }
+}
+
+gradle.projectsEvaluated {
+    tasks.withType(JavaCompile) {
+        options.compilerArgs << "-Xlint"
+    }
+}
+
+//- Support libraries.
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+    compile 'com.android.support:appcompat-v7:25.3.1'
+
+    compile 'com.squareup.okhttp:okhttp:2.7.5'
+
+    compile 'com.squareup.okio:okio:1.9.0'
+}
+

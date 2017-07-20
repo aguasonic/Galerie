@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">के बारे में</string>
+    <string name="affirm">हां</string>
+    <string name="cancel">नहीं</string>
+    <string name="dialog_download">शेष थंबनेल निकालते हैं?</string>
+    <string name="dialog_wallpaper">वॉलपेपर के रूप में छवि सेट?</string>
+    <string name="title_notification">नोटिफिकेशन</string>
+    <string name="text_notification">नई छवियों तैनात.</string>
+    <string name="action_share">शेयर</string>
+    <string name="title_question">सवाल</string>
+    <string name="network_reminder">आगे बढ़ने के लिए नेटवर्क का उपयोग सक्षम करें।</string>
+</resources>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">შესახებ</string>
+    <string name="affirm">დიახ</string>
+    <string name="cancel">არარის</string>
+    <string name="dialog_download">მივიღოთ დარჩენილი დაბრუნება?</string>
+    <string name="dialog_wallpaper">მითითებული ეს იმიჯი ფონი?</string>
+    <string name="title_notification">განაცხადის</string>
+    <string name="text_notification">ახალი სურათები უკვე გამოქვეყნდა.</string>
+    <string name="action_share">გაზიარება</string>
+    <string name="title_question">კითხვა</string>
+    <string name="network_reminder">გთხოვთ დაუშვათ ქსელის ხელმისაწვდომობის გაგრძელება.</string>
+</resources>
+
