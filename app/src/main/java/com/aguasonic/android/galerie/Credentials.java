@@ -4,6 +4,7 @@ package com.aguasonic.android.galerie;
 //- Constants used for authentication.
 //- Declaring as 'enum' is the best way to build a Singleton.
 public enum Credentials {
+    //- Never used -- but <must> declare at least one symbol to be an enumerated type.
     SINGLETON_INSTANCE;
     //- 'false', of course, means these are not authentic.
     static final Boolean enabled = false;

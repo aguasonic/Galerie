@@ -63,7 +63,7 @@ int	DENSITY_560	Intermediate density for screens that sit somewhere between DENS
     }
 
     @Override
-    public Dialog onCreateDialog(final Bundle savedInstanceState) {
+    public final Dialog onCreateDialog(final Bundle savedInstanceState) {
         //- Use the Builder class for convenient dialog construction
         final AlertDialog.Builder the_builder = new AlertDialog.Builder(getActivity());
         final String the_tag = getTag();

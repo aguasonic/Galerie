@@ -6,6 +6,7 @@ package com.aguasonic.android.galerie;
 import com.aguasonic.android.galerie.data.GD_Contract;
 
 import android.app.LoaderManager;
+import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
@@ -129,14 +130,16 @@ final public class MainActivity extends AppCompatActivity implements LoaderManag
         final Resources the_res = the_context.getResources();
         final String the_title = the_res.getString(R.string.title_question);
         final int NOTIFICATION_ID = 24;
+        final String notifIdString = "" +NOTIFICATION_ID;
         final NotificationManager the_notification_manager = (NotificationManager)
                 this.getSystemService(Context.NOTIFICATION_SERVICE);
         final Intent the_intent = new Intent(this, DialogActivity.class);
         final PendingIntent pending_intent =
                 PendingIntent.getActivity(this,
                         0, the_intent, PendingIntent.FLAG_ONE_SHOT);
+
         final NotificationCompat.Builder the_builder =
-                new NotificationCompat.Builder(this)
+                new NotificationCompat.Builder(this, notifIdString)
                         .setAutoCancel(true)
                         .setContentTitle(the_title)
                         .setContentIntent(pending_intent)
@@ -322,7 +325,7 @@ final public class MainActivity extends AppCompatActivity implements LoaderManag
      */
     //- UI Create
     @Override
-    public void onCreate(final Bundle savedInstanceState) {
+    public final void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         //- What version are we? Also performs AppState initialization.
@@ -430,7 +433,7 @@ final public class MainActivity extends AppCompatActivity implements LoaderManag
     }
 
     @Override
-    public boolean onCreateOptionsMenu(final Menu the_menu) {
+    public final boolean onCreateOptionsMenu(final Menu the_menu) {
         //- Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, the_menu);
 
@@ -438,7 +441,7 @@ final public class MainActivity extends AppCompatActivity implements LoaderManag
     }
 
     @Override
-    public boolean onOptionsItemSelected(final MenuItem the_item) {
+    public final boolean onOptionsItemSelected(final MenuItem the_item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
@@ -484,7 +487,7 @@ final public class MainActivity extends AppCompatActivity implements LoaderManag
      *
      */
     @Override
-    protected void onPause() {
+    protected final void onPause() {
         final int first_visible = the_grid.getFirstVisiblePosition();
 
         //- Save our current position.
@@ -495,7 +498,7 @@ final public class MainActivity extends AppCompatActivity implements LoaderManag
     }
 
     @Override
-    protected void onRestoreInstanceState(final @NonNull Bundle previous_state) {
+    protected final void onRestoreInstanceState(final @NonNull Bundle previous_state) {
         super.onRestoreInstanceState(previous_state);
         final int last_position = previous_state.getInt(CURRENT_POSITION, 0);
 
@@ -504,7 +507,7 @@ final public class MainActivity extends AppCompatActivity implements LoaderManag
     }
 
     @Override
-    protected void onResume() {
+    protected final void onResume() {
         super.onResume();
 
         //- If we are coming up from scratch, but don't have a cursor, we
@@ -515,7 +518,7 @@ final public class MainActivity extends AppCompatActivity implements LoaderManag
     }
 
     @Override
-    protected void onSaveInstanceState(final @NonNull Bundle the_state) {
+    protected final void onSaveInstanceState(final @NonNull Bundle the_state) {
         //- Where are we?
         final int first_visible = the_grid.getFirstVisiblePosition();
 
@@ -539,7 +542,7 @@ final public class MainActivity extends AppCompatActivity implements LoaderManag
      * There is no need to capture a reference to it.
      */
     @Override
-    public Loader<Cursor> onCreateLoader(final int the_loader_id, final Bundle the_bundle) {
+    public final Loader<Cursor> onCreateLoader(final int the_loader_id, final Bundle the_bundle) {
         if (the_loader_id == LOADER_ID)
             return (getCursorLoader(AppState.get_sort_direction()));
 
@@ -556,7 +559,7 @@ final public class MainActivity extends AppCompatActivity implements LoaderManag
      * data since its loader owns it and will take care of that.
      */
     @Override
-    public void onLoadFinished(final Loader<Cursor> the_loader, final Cursor the_cursor) {
+    public final void onLoadFinished(final Loader<Cursor> the_loader, final Cursor the_cursor) {
         //- onLoadFinished, but no cursor passed in? How odd.
         if (the_cursor == null) {
             Log.e(LOG_TAG, "onLoadFinished -- but with a null cursor???");
@@ -588,7 +591,7 @@ final public class MainActivity extends AppCompatActivity implements LoaderManag
      * released so you can remove your reference to it.
      */
     @Override
-    public void onLoaderReset(final Loader<Cursor> the_cursor) {
+    public final void onLoaderReset(final Loader<Cursor> the_cursor) {
         //- Tell our adapter the Cursor has been reset.
         //- Don't know how we would get reset before a load, but
         //- can't hurt to be sure our tn_adapter exists before we do

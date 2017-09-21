@@ -43,11 +43,11 @@ final public class FullsizeActivity extends AppCompatActivity {
     //- See
     //- http://developer.android.com/reference/android/os/AsyncTask.html
     //- for reference.
-    private class SetWallpaperTask extends AsyncTask<Void, Void, Integer> {
+    private final class SetWallpaperTask extends AsyncTask<Void, Void, Integer> {
         private Drawable the_drawable;
         private Wallpaper_Info the_wp_info;
 
-        private class Wallpaper_Info {
+        private final class Wallpaper_Info {
             //- Instantiated when the task is created.
             private Context the_context;
             private WallpaperManager the_wm;
@@ -63,7 +63,7 @@ final public class FullsizeActivity extends AppCompatActivity {
             }
         }
 
-        public SetWallpaperTask(final Drawable this_drawable, final Activity the_activity) {
+        protected SetWallpaperTask(final Drawable this_drawable, final Activity the_activity) {
             the_drawable = this_drawable;
             the_wp_info = new Wallpaper_Info(the_activity);
         }
@@ -294,7 +294,7 @@ final public class FullsizeActivity extends AppCompatActivity {
 
 
     @Override
-    public void onCreate(final Bundle savedInstanceState) {
+    public final void onCreate(final Bundle savedInstanceState) {
         //- The string describing the aguasonic image identifier..
         final String EXTRA_AGUA_ID =
                 "com.aguasonic.android.galerie.extra.AGUA_ID";
@@ -314,7 +314,7 @@ final public class FullsizeActivity extends AppCompatActivity {
 
 
     @Override
-    public boolean onCreateOptionsMenu(final Menu the_menu) {
+    public final boolean onCreateOptionsMenu(final Menu the_menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.fullsize, the_menu);
 
@@ -340,7 +340,7 @@ final public class FullsizeActivity extends AppCompatActivity {
         return true;
     }
 
-    final public void callback_FMI(final View the_view) {
+    final protected void callback_FMI(final View the_view) {
         //- 'for more information'
         final String key_fmi = "fmi=";
         final String full_URL = base_URL + key_fmi + the_id_passed;
@@ -352,7 +352,7 @@ final public class FullsizeActivity extends AppCompatActivity {
         startActivity(the_intent);
     }
 
-    final public void callback_POS(final View the_view) {
+    final protected void callback_POS(final View the_view) {
         //- 'point of sale'
         final String key_pos = "pos=";
         final String full_URL = base_URL + key_pos + the_id_passed;
@@ -364,7 +364,7 @@ final public class FullsizeActivity extends AppCompatActivity {
         startActivity(the_intent);
     }
 
-    final public void callback_TSO(final View the_view) {
+    final protected void callback_TSO(final View the_view) {
         //- 'the sound of'
         final String key_tso = "tso=";
         final String full_URL = base_URL + key_tso + the_id_passed;

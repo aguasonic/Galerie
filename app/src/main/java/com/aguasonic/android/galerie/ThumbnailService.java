@@ -98,7 +98,7 @@ final public class ThumbnailService extends Service {
     //- Override our Digest Access class and provide a function for processing the body.
     private final class Text_DigestAccess extends DigestAccess {
         @Override
-        public Object processResponseBody(final InputStream the_stream) {
+        public final Object processResponseBody(final InputStream the_stream) {
             final String the_encoding = "utf-8";
 
             try {
@@ -221,6 +221,7 @@ final public class ThumbnailService extends Service {
         final String the_title = the_res.getString(R.string.title_notification);
         final String the_msg = the_res.getString(R.string.text_notification);
         final int NOTIFICATION_ID = 11;
+        final String notifIdString = "" + NOTIFICATION_ID;
         final NotificationManager the_notification_manager = (NotificationManager)
                 this.getSystemService(Context.NOTIFICATION_SERVICE);
         final Intent the_intent = new Intent(this, MainActivity.class);
@@ -230,7 +231,7 @@ final public class ThumbnailService extends Service {
                 PendingIntent.getActivity(this, 0, the_intent, 0);
 
         final NotificationCompat.Builder mBuilder =
-                new NotificationCompat.Builder(this)
+                new NotificationCompat.Builder(this, notifIdString)
                         .setAutoCancel(true)
                         .setContentText(the_msg)
                         .setContentTitle(the_title)

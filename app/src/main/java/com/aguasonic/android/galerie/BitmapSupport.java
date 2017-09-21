@@ -23,9 +23,8 @@ public enum BitmapSupport {
     SINGLETON_INSTANCE;
     private static final String LOG_TAG = "BitmapSupport";
     private static final String IMAGE_PREFIX = "agua";
-    static private File local_fullsize_dir;
-    static private File local_thumb_dir;
-
+    private static File local_fullsize_dir;
+    private static File local_thumb_dir;
 
     //- Create the key to retrieve data for this value.
     static final public String get_agua_key(final int key_nr) {
@@ -33,7 +32,7 @@ public enum BitmapSupport {
     }
 
     //- Has the Fullsize Bitmap for this id already been loaded? Let's see.
-    static public Boolean isFullsizeLoaded(final Context app_context, final int id_to_check) {
+    static final public Boolean isFullsizeLoaded(final Context app_context, final int id_to_check) {
          final String filePath = getFullsizePathFromID(app_context, id_to_check);
          final File the_file = new File(filePath);
 
@@ -227,7 +226,7 @@ public enum BitmapSupport {
         final class PNG_DigestAccess extends DigestAccess {
 
             @Override
-            public Object processResponseBody(final InputStream the_stream) {
+            public final Object processResponseBody(final InputStream the_stream) {
 
                 //- If we are using this correctly, the stream holds a PNG.
                 return (BitmapFactory.decodeStream(the_stream));

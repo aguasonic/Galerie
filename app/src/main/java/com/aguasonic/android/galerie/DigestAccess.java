@@ -177,7 +177,7 @@ public class DigestAccess {
     //- The MD5 hash of the combined username, authentication realm
     //- and password is calculated. The result is referred to as HA1.
     ------------------------------------------------------------*/
-    final String get_hash_one(final String the_algo,
+    private String get_hash_one(final String the_algo,
                               final String the_user,
                               final String the_realm,
                               final String the_pass) {
@@ -191,7 +191,7 @@ public class DigestAccess {
     //- is calculated, /exemplar gratis/ of "GET" and "/dir/index.html".
     //- The result is referred to as HA2.
     ------------------------------------------------------------*/
-    final String get_hash_two(final String the_algo, final String the_method, final String the_URL) {
+    private String get_hash_two(final String the_algo, final String the_method, final String the_URL) {
         final String all_together = the_method + THE_COLON + the_URL;
 
         return (get_hash(the_algo, all_together));
@@ -372,7 +372,6 @@ public class DigestAccess {
         return null;
     }
 
-
     //- Default implementation.
     protected Object processResponseBody(final InputStream the_stream) {
 
@@ -380,7 +379,8 @@ public class DigestAccess {
     }
 
 
-    public Object run(final String requested_URL, final String password_to_use) throws Exception {
+
+    protected final Object run(final String requested_URL, final String password_to_use) throws Exception {
         the_client.setAuthenticator(new Authenticator() {
             @Override
             public Request authenticate(final Proxy the_proxy, final Response the_response) {
