@@ -6,14 +6,14 @@ def static computeVersionName(final int the_version) {
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.1"
+    buildToolsVersion "26.0.2"
 
     defaultConfig {
         applicationId "com.aguasonic.android.galerie"
         minSdkVersion 14
         targetSdkVersion 26
         //- Application version.
-        versionCode 335
+        versionCode 336
         versionName computeVersionName(versionCode)
     }
 
@@ -42,6 +42,6 @@ dependencies {
 
     compile 'com.squareup.okhttp:okhttp:2.7.5'
 
-    compile 'com.squareup.okio:okio:1.9.0'
+    compile 'com.squareup.okio:okio:1.12.0'
 }
 
