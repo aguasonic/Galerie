@@ -21,45 +21,39 @@ final public class GD_Contract {
     //- to the relationship between a domain name and its website.  A convenient
     //- string to use for the content authority is the package name for the app,
     //- which is guaranteed to be unique on the device.
-    public static final String CONTENT_AUTHORITY = "com.aguasonic.android.galerie.provider";
+    static final String CONTENT_AUTHORITY = "com.aguasonic.android.galerie.provider";
 
     //- Use CONTENT_AUTHORITY to create the base of all URI's which apps will use to contact
     //- the content provider.
-    public static final Uri BASE_CONTENT_URI = Uri.parse("content://" + CONTENT_AUTHORITY);
+    static final Uri BASE_CONTENT_URI = Uri.parse("content://" + CONTENT_AUTHORITY);
 
     //- The only valid path at this authority.
-    public static final String PATH_ALL = "thumbnails";
-    public static final String PATH_BY_SOURCE = "by_source";
-    public static final String PATH_BY_YEAR = "by_year";
-    public static final String PATH_BY_BOTH = "by_src_year";
+    static final String PATH_ALL = "thumbnails";
+    static final String PATH_BY_SOURCE = "by_source";
+    static final String PATH_BY_YEAR = "by_year";
+    static final String PATH_BY_BOTH = "by_src_year";
 
     //- Inner class that defines the table contents of the location table
     //- GD is Galerie Data, of course.
     public static final class GD_Entry implements BaseColumns {
-
-        public static final Uri CONTENT_URI =
-                BASE_CONTENT_URI.buildUpon().appendPath(PATH_ALL).build();
-
-        public static final String CONTENT_TYPE =
+        //- 'package-private' data.
+        static final String CONTENT_TYPE =
                 "vnd.android.cursor.dir/" + CONTENT_AUTHORITY + "/" + PATH_ALL;
 
-        /*- Not used here...
-        public static final String CONTENT_ITEM_TYPE =
-                "vnd.android.cursor.item/" + CONTENT_AUTHORITY + "/" + PATH_ALL;
-        */
-
         //- Table name
-        public static final String TABLE_NAME = "galerie_data";
+        static final String TABLE_NAME = "galerie_data";
 
         //- Integer Year the work was created.
-        public static final String COLUMN_YEAR_MADE = "the_year_made";
+        static final String COLUMN_YEAR_MADE = "the_year_made";
 
         //- Integer Source type of the sound the image was made from.
-        public static final String COLUMN_SOUND_SOURCE = "the_sound_source";
+        static final String COLUMN_SOUND_SOURCE = "the_sound_source";
 
         //- Integer Source type of the sound the image was made from.
         public static final String COLUMN_THUMBNAIL_PATH = "the_thumbnail_path";
 
+        public static final Uri CONTENT_URI =
+                BASE_CONTENT_URI.buildUpon().appendPath(PATH_ALL).build();
     }
 
     //- Given our data, create a ContentValues instance that we can insert into the database.
@@ -80,10 +74,15 @@ final public class GD_Contract {
         return the_values;
     }
 
-
-    //- Make an array of ContentValues suitable for an insert() call.
-    //- Eventually we will have arrays for the year made and source ids, also.
-    static public ContentValues[] getArrayOfContentValues(final Context the_context, final int[] the_ids) {
+    /**
+     * Make an array of ContentValues suitable for an insert() call.
+     * Eventually we will have arrays for the year made and source ids, also.
+     *
+     * @param the_context
+     * @param the_ids
+     * @return
+     */
+    static public final ContentValues[] getArrayOfContentValues(final Context the_context, final int[] the_ids) {
         //
         //- TODO TODO TODO
         //- Right now we are faking it until we can update the JSON format
