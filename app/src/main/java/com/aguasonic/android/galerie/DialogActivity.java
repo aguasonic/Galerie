@@ -10,7 +10,7 @@ final public class DialogActivity extends Activity {
     //private String LOG_TAG = getClass().getSimpleName();
 
     @Override
-    protected final void onCreate(Bundle savedInstanceState) {
+    public final void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_dialog);
