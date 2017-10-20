@@ -14,12 +14,12 @@ public enum StringSupport {
     SINGLETON_INSTANCE;
     private final static String DOUBLE_QUOTE = "\"";
 
-    static final protected String addDoubleQuotes(final String str) {
+    static final public String addDoubleQuotes(final String str) {
 
         return (DOUBLE_QUOTE + str + DOUBLE_QUOTE);
     }
 
-    static final protected String stripLeadingAndTrailingQuotes(String the_str) {
+    static final public String stripLeadingAndTrailingQuotes(String the_str) {
 
         if (the_str.startsWith(DOUBLE_QUOTE)) {
             the_str = the_str.substring(1, the_str.length());
@@ -33,7 +33,7 @@ public enum StringSupport {
     }
 
     //- Decode a hexadecimal character string. _No checks_, so know what you're doing!
-    static final protected byte[] decodeHex(final String invec) {
+    static final public byte[] decodeHex(final String invec) {
         final byte[] char_bytes = invec.getBytes();
         final int len = invec.length();
         final byte[] byte_sequence = new byte[len >> 1];
@@ -54,7 +54,7 @@ public enum StringSupport {
 
 
     //- Encodes byte array as hexadecimal sequence.
-    static final protected String encodeHex(final byte[] data) {
+    static final public String encodeHex(final byte[] data) {
         /**
          * Used to build output as Hex
          */
