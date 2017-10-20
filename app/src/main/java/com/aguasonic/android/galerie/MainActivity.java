@@ -487,7 +487,7 @@ final public class MainActivity extends AppCompatActivity implements LoaderManag
      *
      */
     @Override
-    protected final void onPause() {
+    public final void onPause() {
         final int first_visible = the_grid.getFirstVisiblePosition();
 
         //- Save our current position.
@@ -498,7 +498,7 @@ final public class MainActivity extends AppCompatActivity implements LoaderManag
     }
 
     @Override
-    protected final void onRestoreInstanceState(final @NonNull Bundle previous_state) {
+    public final void onRestoreInstanceState(final @NonNull Bundle previous_state) {
         super.onRestoreInstanceState(previous_state);
         final int last_position = previous_state.getInt(CURRENT_POSITION, 0);
 
@@ -507,7 +507,7 @@ final public class MainActivity extends AppCompatActivity implements LoaderManag
     }
 
     @Override
-    protected final void onResume() {
+    public final void onResume() {
         super.onResume();
 
         //- If we are coming up from scratch, but don't have a cursor, we
@@ -518,7 +518,7 @@ final public class MainActivity extends AppCompatActivity implements LoaderManag
     }
 
     @Override
-    protected final void onSaveInstanceState(final @NonNull Bundle the_state) {
+    public final void onSaveInstanceState(final @NonNull Bundle the_state) {
         //- Where are we?
         final int first_visible = the_grid.getFirstVisiblePosition();
 
