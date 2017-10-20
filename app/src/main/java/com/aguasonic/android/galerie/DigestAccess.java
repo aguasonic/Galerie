@@ -178,9 +178,9 @@ public class DigestAccess {
     //- and password is calculated. The result is referred to as HA1.
     ------------------------------------------------------------*/
     private String get_hash_one(final String the_algo,
-                              final String the_user,
-                              final String the_realm,
-                              final String the_pass) {
+                                final String the_user,
+                                final String the_realm,
+                                final String the_pass) {
         final String all_together = the_user + THE_COLON + the_realm + THE_COLON + the_pass;
 
         return (get_hash(the_algo, all_together));
@@ -373,14 +373,14 @@ public class DigestAccess {
     }
 
     //- Default implementation.
-    protected Object processResponseBody(final InputStream the_stream) {
+    public Object processResponseBody(final InputStream the_stream) {
 
         return null;
     }
 
 
 
-    protected final Object run(final String requested_URL, final String password_to_use) throws Exception {
+    public final Object run(final String requested_URL, final String password_to_use) throws Exception {
         the_client.setAuthenticator(new Authenticator() {
             @Override
             public Request authenticate(final Proxy the_proxy, final Response the_response) {
