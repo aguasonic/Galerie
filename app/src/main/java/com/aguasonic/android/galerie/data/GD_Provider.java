@@ -229,7 +229,7 @@ final public class GD_Provider extends ContentProvider {
     }
 
     @Override
-    public int bulkInsert(final Uri the_uri, final @NonNull ContentValues[] values_to_insert) {
+    public final int bulkInsert(final Uri the_uri, final @NonNull ContentValues[] values_to_insert) {
         if (values_to_insert.length > 0) {
             final int the_match = the_URI_matcher.match(the_uri);
             //- There are several URIs, yes -- but only one makes sense.
@@ -241,6 +241,7 @@ final public class GD_Provider extends ContentProvider {
             if (returnCount > 0) {
                 the_context.getContentResolver().notifyChange(the_uri, null);
 
+                //- Tell our state-machine.
                 AppState.content_provider_set_loaded(true);
             }
             return returnCount;
