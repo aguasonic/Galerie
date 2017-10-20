@@ -33,7 +33,7 @@ import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 
 //- The Activity posted when a thumbnail is chosen.
-final public class FullsizeActivity extends AppCompatActivity {
+public final class FullsizeActivity extends AppCompatActivity {
     private final String LOG_TAG = getClass().getSimpleName();
     private final String base_URL = "http://android.aguasonic.com/galerie/?";
     //- for the callback_??? methods below.
@@ -63,14 +63,15 @@ final public class FullsizeActivity extends AppCompatActivity {
             }
         }
 
-        protected SetWallpaperTask(final Drawable this_drawable, final Activity the_activity) {
+        //- package-private
+        SetWallpaperTask(final Drawable this_drawable, final Activity the_activity) {
             the_drawable = this_drawable;
             the_wp_info = new Wallpaper_Info(the_activity);
         }
 
         //- We only need _one_ argument.
         @Override
-        protected Integer doInBackground(final Void... imputed) {
+        public Integer doInBackground(final Void... imputed) {
             final int ret_failure = -1;
 
             //- If they are still viable.
@@ -171,7 +172,7 @@ final public class FullsizeActivity extends AppCompatActivity {
 
         //- Get the image.
         @Override
-        protected Void doInBackground(final Void... imputed) {
+        public Void doInBackground(final Void... imputed) {
             //- Save it for subsequent requests.
             if ((the_bitmap != null) && (the_id > 0))
                 BitmapSupport.writeFullsizeToDisk(getApplicationContext(), the_bitmap, the_id);
@@ -193,20 +194,20 @@ final public class FullsizeActivity extends AppCompatActivity {
 
         //- Get the image.
         @Override
-        protected void onPreExecute() {
+        public final void onPreExecute() {
             rotateIt(the_iv);
         }
 
         //- Get the image.
         @Override
-        protected Bitmap doInBackground(final Void... imputed) {
+        public final Bitmap doInBackground(final Void... imputed) {
             //- Go fetch the indicated PNG file and return a Bitmap.
             return (BitmapSupport.getFullsizeFromWeb(the_id));
         }
 
         //- Once complete, see if ImageView is still around and set bitmap.
         @Override
-        protected void onPostExecute(final Bitmap the_bitmap) {
+        public final void onPostExecute(final Bitmap the_bitmap) {
             final BitmapSaverTask the_task =
                     new BitmapSaverTask(the_bitmap, the_id);
 
@@ -340,7 +341,10 @@ final public class FullsizeActivity extends AppCompatActivity {
         return true;
     }
 
-    final protected void callback_FMI(final View the_view) {
+    //
+    //- DO NOT make these callbacks protected. Yes it compiles. NO, it does not run.
+    //
+    public final void callback_FMI(final View the_view) {
         //- 'for more information'
         final String key_fmi = "fmi=";
         final String full_URL = base_URL + key_fmi + the_id_passed;
@@ -352,7 +356,7 @@ final public class FullsizeActivity extends AppCompatActivity {
         startActivity(the_intent);
     }
 
-    final protected void callback_POS(final View the_view) {
+    public final void callback_POS(final View the_view) {
         //- 'point of sale'
         final String key_pos = "pos=";
         final String full_URL = base_URL + key_pos + the_id_passed;
@@ -364,7 +368,7 @@ final public class FullsizeActivity extends AppCompatActivity {
         startActivity(the_intent);
     }
 
-    final protected void callback_TSO(final View the_view) {
+    public final void callback_TSO(final View the_view) {
         //- 'the sound of'
         final String key_tso = "tso=";
         final String full_URL = base_URL + key_tso + the_id_passed;
