@@ -66,7 +66,7 @@ final public class GD_Resources {
     private Context the_context;
 
     //- Take this id and run with it.
-    final private class GD_PreloadCallable implements Callable<Void> {
+    private final class GD_PreloadCallable implements Callable<Void> {
         //private final String LOG_TAG = this.getClass().getSimpleName();
         private int this_agua_id;
         private int this_rsrc_id;
@@ -83,7 +83,6 @@ final public class GD_Resources {
             this_rsrc_id = the_rsrc_id;
             this_context = the_context;
         }
-
 
         //- Write our resource images to disk. Yes, it would be nice to get the resources
         //- from the ids, but they are _resources_, known at parse time, and it turns out
@@ -108,13 +107,14 @@ final public class GD_Resources {
         }
     }
 
-
-    public GD_Resources(final Context app_context) {
+    //- 'package-private' if you leave the access modifier off!
+    GD_Resources(final Context app_context) {
 
         the_context = app_context;
     }
 
-    final public ContentValues[] getValues() {
+    //- 'package-private' if you leave the access modifier off!
+    final ContentValues[] getValues() {
         final String msg_1 = "We have " + initial_res_ids.length + " ids to work with.";
         final String msg_2 = "Found " + n_processors + " processors.";
         final List<GD_PreloadCallable> the_callables = new ArrayList<>();
@@ -153,10 +153,10 @@ final public class GD_Resources {
 
         return (GD_Contract.getArrayOfContentValues(the_context, the_initial_ids));
     }
+
 }
 
 /*
  * ©2015 Aguasonic Acoustics
  * http://aguasonic.com/
  */
-
